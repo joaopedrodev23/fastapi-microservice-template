@@ -1,0 +1,11 @@
+﻿service:
+  name: "example-service"
+backend:
+  base_url: "https://backend-prod.example.com"
+  endpoint_path: "/v1/endpoint"
+  timeout_seconds: 10
+  headers:
+    x-api-key: "change-me"
+  mock_enabled: false
+logging:
+  level: "INFO"
